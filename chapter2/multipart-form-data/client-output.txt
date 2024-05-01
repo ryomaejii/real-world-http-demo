@@ -1,0 +1,2 @@
+curl --http1.0 -F title="The Art of Community" -F author="Jono Bacon" -F attachment-tile=@test.txt http://localhost:18888
+<html><body>hello</body></html>

@@ -1,0 +1,21 @@
+POST / HTTP/1.0
+Host: localhost:18888
+Accept: */*
+Content-Length: 437
+Content-Type: multipart/form-data; boundary=------------------------bd07b8c3a9312b8f
+User-Agent: curl/8.1.2
+
+--------------------------bd07b8c3a9312b8f
+Content-Disposition: form-data; name="title"
+
+The Art of Community
+--------------------------bd07b8c3a9312b8f
+Content-Disposition: form-data; name="author"
+
+Jono Bacon
+--------------------------bd07b8c3a9312b8f
+Content-Disposition: form-data; name="attachment-tile"; filename="test.txt"
+Content-Type: text/plain
+
+適当なファイル
+--------------------------bd07b8c3a9312b8f--
